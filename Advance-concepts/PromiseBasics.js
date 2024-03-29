@@ -81,3 +81,58 @@
 //         console.log("promise is either resolved or rejected");
 //     }
 // )
+
+// we can also handel promises using async and await
+
+// const p5 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     let error = true;
+//     if (!error) {
+//       resolve({
+//         country: "france",
+//         currency: "franc",
+//         capital: "paris",
+//       });
+//     } else {
+//       reject("error occured in operation");
+//     }
+//   }, 2000);
+// });
+
+// async function consumePromise5() {
+//   try {
+//     const response = await p5;
+//     console.log(response);
+//   } catch (e) {
+//     console.log(e);
+//   }
+
+// in async await we can handel the error gracefully using the try catch block
+
+// }
+// consumePromise5();
+
+// async function request(){
+//   try{
+//   const response=await fetch("https://jsonplaceholder.typicode.com/users");
+//      const data= await response.json();
+//      console.log( data);
+// }
+// catch(E){
+// console.log(E);
+// }
+// }
+// request();
+
+// SAME USING .THEN AND .CATCH
+
+// const datarequest = fetch("https://jsonplaceholder.typicode.com/users");
+// console.log(datarequest);
+// datarequest
+//   .then( async (data) => {
+//     const jdata= await data.json();
+//     console.log(jdata);
+//   })
+//   .catch((E) => {
+//     console.log("An error occured in fetching the data");
+//   });
