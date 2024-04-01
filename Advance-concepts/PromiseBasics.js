@@ -106,11 +106,12 @@
 //   } catch (e) {
 //     console.log(e);
 //   }
-
 // in async await we can handel the error gracefully using the try catch block
-
 // }
 // consumePromise5();
+
+
+
 
 // async function request(){
 //   try{
