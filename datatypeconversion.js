@@ -11,8 +11,8 @@
 // let num=23;
 // console.log(num);
 
-let num1=Number(23);
-console.log(num1)
+// let num1=Number(23);
+// console.log(num1)
 
 // let num2=new Number("43")
 // console.log(num2)
