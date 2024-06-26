@@ -19,3 +19,4 @@
 // // Number()
 // let tc=Number("andn")
 // console.log(tc);
+const name ="vinay joshi"
