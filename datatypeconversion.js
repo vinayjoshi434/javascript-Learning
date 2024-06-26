@@ -12,7 +12,7 @@
 // console.log(num);
 
 // let num1=Number(23);
-// console.log(num1)
+// console.log(num1)ssh-keygen -t ed25519 -C "your_email@example.com"
 
 // let num2=new Number("43")
 // console.log(num2)
